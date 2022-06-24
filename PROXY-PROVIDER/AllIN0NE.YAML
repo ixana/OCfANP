@@ -24,7 +24,7 @@ name: Trojan-go universal101
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: /trojan
+    path: /howdy
   headers:
     Host: sg1-trojan.bonds.id
 #=============================TROJAN-GoWS
@@ -38,7 +38,7 @@ name: Trojan-go universal111
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: /trojan
+    path: /howdy
   headers:
     Host: trojan2.udpgw.com
 #=============================TROJAN-GoWS
@@ -52,7 +52,7 @@ name: Trojan-go universal121
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: /trojan
+    path: /howdy
   headers:
     Host: trojan2.udpgw.com
 #=============================TROJAN-GoWS
