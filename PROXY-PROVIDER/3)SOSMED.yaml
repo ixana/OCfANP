@@ -10,6 +10,6 @@ name: Trojan-go universal10
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: /trojan
+    path: /howdy
   headers:
     Host: sg1-trojan.bonds.id
