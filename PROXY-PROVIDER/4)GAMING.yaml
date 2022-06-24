@@ -2,9 +2,9 @@ proxies:
 #===================================TROJAN
 - name: GM
   type: trojan
-  server: sg2go.ipservers.xyz
+  server: w11.udpgw.com
   port: 443
-  password: jagoanssh-Aioaio
+  password: 35a2bc20-f3bb-11ec-8316-1239d0255272
   udp: true
   sni: investors.spotify.com
   skip-cert-verify: true
