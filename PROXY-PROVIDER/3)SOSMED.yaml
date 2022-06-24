@@ -1,0 +1,12 @@
+proxies:
+#===================================TROJAN
+- name: SOS
+  type: trojan
+  server: sg2go.ipservers.xyz
+  port: 443
+  password: jagoanssh-Aoiooai
+  udp: true
+  sni: investors.spotify.com
+  skip-cert-verify: true
+#  interface-name: eth1/eth2/wan/wwan0
+#=========================================

@@ -1,0 +1,90 @@
+#NOTE:HAPUS KEDUA TANDA PAGAR|#|DIBAWAH JIKA ANDA MENGGUNAKAN DUAL-MODEM|WAN|ATAU LEBIH. AND
+#JIKA ANDA MENGGUNAKAN SATU AKUN YG SAMA HARAP BERI NAMA BERBEDA DISETIAP CONFIGNYA,
+#AGAR TIDAK TERJADI ERROR!!!
+#=========================================
+proxies:
+#=========================================
+#===================================TROJAN
+- name: Trojan
+  type: trojan
+  server: HOST
+  port: 443
+  password: PASS
+  udp: true
+  sni: BUG
+  skip-cert-verify: true
+#  interface-name: eth1/eth2/wan/wwan0
+#=========================================
+#=============================TROJAN-GoWS
+- name: Trojan-GoWS
+  server: BUG
+  port: 443
+  type: trojan
+  password: PASS
+  network: ws
+  sni: HOST
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /PATH #/trojan-ws
+  headers:
+    Host: HOST
+#  interface-name: eth1/eth2/wan/wwan0
+#=========================================
+#==============================TROJAN-gRPC
+- name: Trojan-gRPC
+  server: HOST
+  port: 443
+  type: trojan
+  password: PASS
+  network: grpc
+  sni: BUG
+  skip-cert-verify: true
+  udp: true
+  grpc-opts:
+    grpc-service-name: PATH #trojan-grpc
+#  interface-name: eth1/eth2/wan/wwan0
+#=========================================
+#=================================VMESS-WS
+- name: VMESS
+  type: vmess
+  server: HOST
+  port: 443
+  uuid: d12d867a-9c3c-46ed-977d-37d2713dddbb
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: BUG
+  network: ws
+  ws-opts:
+    path: /PATH
+    headers:
+      Host: BUG
+#=========================================
+#==============================Shadowsocks
+- name: Shadowsocks
+  type: ss
+  server: HOST
+  port: 1443
+  cipher: chacha20-ietf-poly1305
+  password: PASS
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: BUG
+#=========================================
+#=============================ShadowsocksR
+- name: ShadowsocksR
+  type: ssr
+  server: HOST
+  port: 8449
+  cipher: aes-256-cfb
+  password: PASS
+  obfs: tls1.2_ticket_auth
+  protocol: auth_sha1_v4
+  obfs-param: obfs=tls;obfs-host=BUG
+  udp: true
+#=========================================

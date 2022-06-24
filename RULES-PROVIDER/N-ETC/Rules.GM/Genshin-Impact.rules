@@ -1,0 +1,27 @@
+payload:
+  # GENSHIN IMPACT
+  - DOMAIN-SUFFIX,genshin.hoyoverse.com
+  - DOMAIN-SUFFIX,webstatic-sea.hoyoverse.com
+  - DOMAIN-SUFFIX,webstatic.hoyoverse.com
+  - DOMAIN-SUFFIX,hk4e-sdk-os-static.hoyoverse.com
+  - DOMAIN-SUFFIX,hk4e-api-os-static.hoyoverse.com
+  - DOMAIN-SUFFIX,hk4e-sdk-os.hoyoverse.com
+  - DOMAIN-SUFFIX,hk4e-api-os.hoyoverse.com
+  - DOMAIN-SUFFIX,minor-api-os.hoyoverse.com
+  - DOMAIN-SUFFIX,sentry-sea.hoyoverse.com
+  #
+  # GENSHIN-LOADING
+  - DOMAIN-SUFFIX,minor-api-os.hoyoverse.com
+  - DOMAIN-SUFFIX,sentry-sea.hoyoverse.com
+  - DOMAIN-SUFFIX,csoversea.mbgame.gamesafe.qq.com
+  - DOMAIN-SUFFIX,dispatch-hk4e-global-os-asia.mihoyo.com
+  - IP-CIDR,47.245.58.0/92
+  #
+  # GENSHIN-DOWN
+  - DOMAIN-SUFFIX,autopatchhk.yuanshen.com
+  - DOMAIN-SUFFIX,autopatchhk.yuanshen.com
+  - DOMAIN-SUFFIX,osusadispatch.yuanshen.com
+  - DOMAIN-SUFFIX,oseurodispatch.yuanshen.com
+  - DOMAIN-SUFFIX,overseauspider.yuanshen.com
+  - DOMAIN-SUFFIX,dispatchosglobal.yuanshen.com
+  #
