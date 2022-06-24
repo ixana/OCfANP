@@ -10,3 +10,17 @@ proxies:
   skip-cert-verify: true
 #  interface-name: eth1/eth2/wan/wwan0
 #=========================================
+#=============================TROJAN-GoWS
+name: Trojan-go universal10
+  server: investors.spotify.com
+  port: 443
+  type: trojan
+  password: 96887130-f3d5-11ec-9497-1239d0255272
+  network: ws
+  sni: sg1-trojan.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+  headers:
+    Host: sg1-trojan.bonds.id
