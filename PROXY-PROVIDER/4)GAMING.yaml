@@ -1,16 +1,5 @@
 proxies:
 #===================================TROJAN
-- name: GM
-  type: trojan
-  server: w11.udpgw.com
-  port: 443
-  password: 35a2bc20-f3bb-11ec-8316-1239d0255272
-  udp: true
-  sni: investors.spotify.com
-  skip-cert-verify: true
-#  interface-name: eth1/eth2/wan/wwan0
-#=========================================
-#===================================TROJAN
 - name: Trojan-go universal8
   server: investors.spotify.com
   port: 443
