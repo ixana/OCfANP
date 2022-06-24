@@ -1,12 +1,15 @@
 proxies:
-#===================================TROJAN
-- name: STR
-  type: trojan
-  server: sg2go.ipservers.xyz
+#=============================TROJAN-GoWS
+name: Trojan-go universal11
+  server: investors.spotify.com
   port: 443
-  password: jagoanssh-Aoioai
-  udp: true
-  sni: investors.spotify.com
+  type: trojan
+  password: d49ca310-f3d5-11ec-a733-1239d0255272
+  network: ws
+  sni: trojan2.udpgw.com
   skip-cert-verify: true
-#  interface-name: eth1/eth2/wan/wwan0
-#=========================================
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: trojan2.udpgw.com
