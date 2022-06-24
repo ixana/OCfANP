@@ -114,7 +114,7 @@ proxy-providers:
  #-----------------------------------------------------------
   AllIN0NE:
     type: http #http/file
-    url: "https://raw.githubusercontent.com/ZYXOXD/OpCfA/Conf-by-UNME/PROXY-PROVIDER/AllIN0NE.YAML"
+    url: "https://raw.githubusercontent.com/ixana/OCfANP/SVAN/PROXY-PROVIDER/AllIN0NE.YAML"
     interval: 3690
     path: "./AllIN0NE.YAML" #/proxy_provider
     health-check:
@@ -125,7 +125,7 @@ proxy-providers:
  #-----------------------------------------------------------
   Universal:
     type: http #http/file
-    url: "https://raw.githubusercontent.com/ZYXOXD/OpCfA/Conf-by-UNME/PROXY-PROVIDER/1)UNIVERSAL.yaml"
+    url: "https://raw.githubusercontent.com/ixana/OCfANP/SVAN/PROXY-PROVIDER/1)UNIVERSAL.yaml"
     interval: 3690
     path: "./1)UNIVERSAL.yaml" #/proxy_provider
     health-check:
@@ -135,7 +135,7 @@ proxy-providers:
  #-----------------------------------------------------------
   Streaming:
     type: http #http/file
-    url: "https://raw.githubusercontent.com/ZYXOXD/OpCfA/Conf-by-UNME/PROXY-PROVIDER/2)STREAM.yaml"
+    url: "https://raw.githubusercontent.com/ixana/OCfANP/SVAN/PROXY-PROVIDER/2)STREAM.yaml"
     interval: 3690
     path: "./2)STREAM.yaml" #/proxy_provider
     health-check:
@@ -145,7 +145,7 @@ proxy-providers:
  #-----------------------------------------------------------
   Sosmed:
     type: http #http/file
-    url: "https://raw.githubusercontent.com/ZYXOXD/OpCfA/Conf-by-UNME/PROXY-PROVIDER/3)SOSMED.yaml"
+    url: "https://raw.githubusercontent.com/ixana/OCfANP/SVAN/PROXY-PROVIDER/3)SOSMED.yaml"
     interval: 3690
     path: "./3)SOSMED.yaml" #/proxy_provider
     health-check:
@@ -155,7 +155,7 @@ proxy-providers:
  #-----------------------------------------------------------
   Gaming:
     type: http #http/file
-    url: "https://raw.githubusercontent.com/ZYXOXD/OpCfA/Conf-by-UNME/PROXY-PROVIDER/4)GAMING.yaml"
+    url: "https://raw.githubusercontent.com/ixana/OCfANP/SVAN/PROXY-PROVIDER/4)GAMING.yaml"
     interval: 3690
     path: "./4)GAMING.yaml" #/proxy_provider
     health-check:
@@ -302,42 +302,42 @@ rule-providers:
     type: http #http/file
     behavior: classical
     path: "./XTRA.rules.yaml" #/rule_provider/XTRA/XTRA_WL
-    url: https://raw.githubusercontent.com/ZYXOXD/OpCfA/Conf-by-UNME/RULES-PROVIDER/TSEL-RULES/XTRA/XTRA_WL/XTRA.rules.yaml
+    url: https://raw.githubusercontent.com/ixana/OCfANP/SVAN/RULES-PROVIDER/TSEL-RULES/XTRA/XTRA_WL/XTRA.rules.yaml
     interval: 3690
  #-----------------------------------------------------------
   RP-Direct:
     type: http #http/file
     behavior: classical
     path: "./direct.yaml" #/rule_provider/N-ETC/!
-    url: https://raw.githubusercontent.com/ZYXOXD/OpCfA/Conf-by-UNME/RULES-PROVIDER/N-ETC/!/direct.yaml
+    url: https://raw.githubusercontent.com/ixana/OCfANP/SVAN/RULES-PROVIDER/N-ETC/!/direct.yaml
     interval: 3690
  #-----------------------------------------------------------
   RP-Reject:
     type: http #http/file
     behavior: classical
     path: "./reject.yaml" #/rule_provider/N-ETC/!
-    url: https://raw.githubusercontent.com/ZYXOXD/OpCfA/Conf-by-UNME/RULES-PROVIDER/N-ETC/!/reject.yaml
+    url: https://raw.githubusercontent.com/ixana/OCfANP/SVAN/RULES-PROVIDER/N-ETC/!/reject.yaml
     interval: 3690
  #-----------------------------------------------------------
   RP-Stream:
     type: http #http/file
     behavior: classical
     path: "./STREAMING.rules.yaml" #/rule_provider/XTRA/XTRA_WL
-    url: https://raw.githubusercontent.com/ZYXOXD/OpCfA/Conf-by-UNME/RULES-PROVIDER/TSEL-RULES/XTRA/XTRA_WL/STREAMING.rules.yaml
+    url: https://raw.githubusercontent.com/ixana/OCfANP/SVAN/RULES-PROVIDER/TSEL-RULES/XTRA/XTRA_WL/STREAMING.rules.yaml
     interval: 3690
  #-----------------------------------------------------------
   RP-Sosmed:
     type: http #http/file
     behavior: classical
     path: "./SOSMED.rules.yaml" #/rule_provider/XTRA/XTRA_WL
-    url: https://raw.githubusercontent.com/ZYXOXD/OpCfA/Conf-by-UNME/RULES-PROVIDER/TSEL-RULES/XTRA/XTRA_WL/SOSMED.rules.yaml
+    url: https://raw.githubusercontent.com/ixana/OCfANP/SVAN/RULES-PROVIDER/TSEL-RULES/XTRA/XTRA_WL/SOSMED.rules.yaml
     interval: 3690
  #-----------------------------------------------------------
   RP-Gaming:
     type: http #http/file
     behavior: classical
     path: "./GAMING.rules.yaml" #/rule_provider/XTRA/XTRA_WL
-    url: https://raw.githubusercontent.com/ZYXOXD/OpCfA/Conf-by-UNME/RULES-PROVIDER/TSEL-RULES/XTRA/XTRA_WL/GAMING.rules.yaml
+    url: https://raw.githubusercontent.com/ixana/OCfANP/SVAN/RULES-PROVIDER/TSEL-RULES/XTRA/XTRA_WL/GAMING.rules.yaml
     interval: 3690
 #------------------------------------------------------------
 #----------------THANKS TO ALLAH WA RASULULLAH---------------
