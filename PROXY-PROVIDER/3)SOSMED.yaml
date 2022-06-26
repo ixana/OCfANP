@@ -13,3 +13,19 @@ proxies:
     path: /howdy
   headers:
     Host: sg1-trojan.bonds.id
+#=============================TROJAN-GoWS
+- name: Trojan-Go Sosmed 161
+  server: investors.spotify.com
+  port: 443
+  type: trojan
+  password: jagoanssh-Yyirjbdj
+  network: ws
+  sni: sg2go.ipservers.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan #/trojan-ws
+  headers:
+    Host: sg2go.ipservers.xyz
+#  interface-name: eth1/eth2/wan/wwan0
+#=========================================
