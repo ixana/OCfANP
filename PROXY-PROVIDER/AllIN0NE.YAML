@@ -14,7 +14,7 @@ proxies:
   headers:
     Host: sg1-trojan.bonds.id
 #=============================TROJAN-GoWS
-name: Trojan-go universal101
+- name: Trojan-go universal101
   server: investors.spotify.com
   port: 443
   type: trojan
@@ -28,7 +28,7 @@ name: Trojan-go universal101
   headers:
     Host: sg1-trojan.bonds.id
 #=============================TROJAN-GoWS
-name: Trojan-go universal111
+- name: Trojan-go universal111
   server: investors.spotify.com
   port: 443
   type: trojan
@@ -42,7 +42,7 @@ name: Trojan-go universal111
   headers:
     Host: trojan2.udpgw.com
 #=============================TROJAN-GoWS
-name: Trojan-go universal121
+- name: Trojan-go universal121
   server: investors.spotify.com
   port: 443
   type: trojan
