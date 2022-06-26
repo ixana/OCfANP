@@ -13,3 +13,19 @@ proxies:
     path: /howdy
   headers:
     Host: trojan2.udpgw.com
+#=============================TROJAN-GoWS
+- name: Trojan-Go Streaming 291
+  server: investors.spotify.com
+  port: 443
+  type: trojan
+  password: jagoanssh-Aaaoi
+  network: ws
+  sni: sg2go.ipservers.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan #/trojan-ws
+  headers:
+    Host: sg2go.ipservers.xyz
+#  interface-name: eth1/eth2/wan/wwan0
+#=========================================
