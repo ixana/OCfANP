@@ -1,6 +1,6 @@
 proxies:
 #=============================TROJAN-GoWS
-name: Trojan-go universal10
+- name: Trojan-go universal10
   server: investors.spotify.com
   port: 443
   type: trojan
