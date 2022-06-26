@@ -56,3 +56,67 @@ proxies:
   headers:
     Host: trojan2.udpgw.com
 #=============================TROJAN-GoWS
+#=============================TROJAN-GoWS
+- name: Trojan-Go Universal 1
+  server: investors.spotify.com
+  port: 443
+  type: trojan
+  password: jagoanssh-Aoioai
+  network: ws
+  sni: sg2go.ipservers.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+  headers:
+    Host: sg2go.ipservers.xyz
+#  interface-name: eth1/eth2/wan/wwan0
+#=========================================
+#=============================TROJAN-GoWS
+- name: Trojan-GO Gaming 12
+  server: investors.spotify.com
+  port: 443
+  type: trojan
+  password: jagoanssh-Aaoio
+  network: ws
+  sni: sg2go.ipservers.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+  headers:
+    Host: sg2go.ipservers.xyz
+#  interface-name: eth1/eth2/wan/wwan0
+#=========================================
+#=============================TROJAN-GoWS
+- name: Trojan-Go Streaming 29
+  server: investors.spotify.com
+  port: 443
+  type: trojan
+  password: jagoanssh-Aaaoi
+  network: ws
+  sni: sg2go.ipservers.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan #/trojan-ws
+  headers:
+    Host: sg2go.ipservers.xyz
+#  interface-name: eth1/eth2/wan/wwan0
+#=========================================
+#=============================TROJAN-GoWS
+- name: Trojan-Go Sosmed 16
+  server: investors.spotify.com
+  port: 443
+  type: trojan
+  password: jagoanssh-Yyirjbdj
+  network: ws
+  sni: sg2go.ipservers.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan #/trojan-ws
+  headers:
+    Host: sg2go.ipservers.xyz
+#  interface-name: eth1/eth2/wan/wwan0
+#=========================================
