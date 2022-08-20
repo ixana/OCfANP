@@ -1,31 +1,15 @@
 proxies:
-#===================================TROJAN
-- name: Trojan-go universal8
-  server: investors.spotify.com
-  port: 443
-  type: trojan
-  password: 5f071cb0-f3d5-11ec-82df-1239d0255272
-  network: ws
-  sni: sg1-trojan.bonds.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: sg1-trojan.bonds.id
 #=============================TROJAN-GoWS
-- name: Trojan-GO Gaming 121
+- name: Trojan-go 3
   server: investors.spotify.com
   port: 443
   type: trojan
-  password: jagoanssh-Aaoio
+  password: 00e25bc0-20b3-11ed-b330-225401db9d57
   network: ws
-  sni: sg2go.ipservers.xyz
+  sni: sghe.tjvpn.org
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: /trojan
+    path: /fastssh
   headers:
-    Host: sg2go.ipservers.xyz
-#  interface-name: eth1/eth2/wan/wwan0
-#=========================================
+    Host: sghe.tjvpn.org
